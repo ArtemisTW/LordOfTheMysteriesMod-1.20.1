@@ -21,7 +21,7 @@ public class LOTMMod
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "lotmmod";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public LOTMMod(FMLJavaModLoadingContext context)
     {
